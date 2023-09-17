@@ -1,0 +1,12 @@
+<form>
+    <select name="consulta" [(ngModel)]="consulta">
+        <option selected value="USD-BRL">Dolar</option>
+        <option value="EUR-BRL">Euro</option>
+        <option value="BTC-BRL">Bitcoin</option>
+    </select>
+    
+
+    <button (click)="obterCotacao()">Buscar</button>
+
+ 
+</form>

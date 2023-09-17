@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TelaCarregamentoService } from './services/tela-carregamento-service/tela-carregamento.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'teste-tela-carregamento';
+  
+  constructor(public telaCarregamentoService: TelaCarregamentoService) { }
+
+  
+
 }
